@@ -8,9 +8,9 @@ class Student < InteractiveRecord
 
   def initialize
 
-    @id = :id
-    @name = :name
-    @grade = :grade
+    @id = nil
+    @name = nil
+    @grade = nil
 
   end
 
