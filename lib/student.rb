@@ -6,7 +6,7 @@ class Student < InteractiveRecord
 
   attr_accessor :id, :name, :grade
 
-  def initialize
+  def initialize(hash={})
 
     @id = nil
     @name = nil
