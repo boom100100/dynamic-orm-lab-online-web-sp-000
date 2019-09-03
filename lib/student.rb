@@ -8,9 +8,9 @@ class Student < InteractiveRecord
 
   def initialize(hash={})
 
-    @id = nil
-    @name = nil
-    @grade = nil
+    @id = hash[:id]
+    @name = hash[:name]
+    @grade = hash[:grade]
 
   end
 
