@@ -7,11 +7,11 @@ class Student < InteractiveRecord
   attr_accessor :id, :name, :grade
 
   def initialize
-=begin
-    @id = hash[:id]
-    @name = hash[:name]
-    @grade = hash[:grade]
-=end
+
+    @id = :id
+    @name = :name
+    @grade = :grade
+
   end
 
 end
