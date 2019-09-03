@@ -6,7 +6,7 @@ class Student < InteractiveRecord
 
   attr_accessor
 
-  def initialize
+  def initialize(hash)
 
   end
 
