@@ -21,4 +21,16 @@ class InteractiveRecord
   column_names.compact
   end
 
+  def table_name_for_insert
+  end
+
+  def col_names_for_insert
+  end
+
+  def values_for_insert
+  end
+
+  def save
+  end
+
 end
